@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <div>NutritionPro Landing</div>;
+  return <h1 className="text-3xl font-bold underline">NP Landing example</h1>;
 }
