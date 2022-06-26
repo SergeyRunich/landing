@@ -1,5 +1,10 @@
 import styles from "../styles/Home.module.css";
+import MainWrapper from "../components/mainwrapper";
 
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">NP Landing example</h1>;
+  return (
+    <div className={styles.container}>
+      <MainWrapper />
+    </div>
+  );
 }
