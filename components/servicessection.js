@@ -1,6 +1,6 @@
 function ServicesSection() {
   return (
-    <div className="mainSection">
+    <div className="servicesSection">
       <h1>NP Services</h1>
     </div>
   );

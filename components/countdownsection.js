@@ -1,6 +1,6 @@
 function CountDownSection() {
   return (
-    <div className="mainSection">
+    <div>
       <h1>NP Countdown timer</h1>
     </div>
   );
