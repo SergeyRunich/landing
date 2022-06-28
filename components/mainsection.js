@@ -5,7 +5,7 @@ function MainSection() {
   return (
     <>
       <div
-        className="relative bg-cover bg-left-top bg-no-repeat w-full h-[1100px] md:hidden"
+        className="relative bg-cover bg-left-top bg-no-repeat w-full h-[1000px] md:hidden"
         style={{ backgroundImage: "url(/imgs/banner_mob_1.jpg)" }}
       >
         <Header />
@@ -37,11 +37,11 @@ function MainSection() {
         </div>
       </div>
       <div
-        className="relative bg-cover bg-right bg-no-repeat w-full h-[500px] hidden md:block"
+        className="relative bg-cover bg-right bg-no-repeat h-[100vh] hidden md:block"
         style={{ backgroundImage: "url(/imgs/banner_desk_1.jpg)" }}
       >
         <Header />
-        <div className="absolute  top-[11vh] left-[5vw] text-left">
+        <div className="absolute  top-[30vh] left-[5vw] text-left">
           <h1
             className="font-bold text-[#353643]"
             style={{
