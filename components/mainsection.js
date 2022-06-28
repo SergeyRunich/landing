@@ -5,7 +5,7 @@ function MainSection() {
   return (
     <>
       <div
-        className="relative bg-cover bg-left-top bg-no-repeat w-full h-[1000px] md:hidden"
+        className="relative bg-cover bg-left- sm:bg-left bg-no-repeat w-full h-[1000px] md:hidden"
         style={{ backgroundImage: "url(/imgs/banner_mob_1.jpg)" }}
       >
         <Header />
