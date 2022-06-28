@@ -37,7 +37,7 @@ function MainSection() {
         </div>
       </div>
       <div
-        className="relative bg-cover bg-right bg-no-repeat h-[100vh] hidden md:block"
+        className="relative bg-cover md:bg-center bg-right bg-no-repeat h-[100vh] hidden md:block"
         style={{ backgroundImage: "url(/imgs/banner_desk_1.jpg)" }}
       >
         <Header />
