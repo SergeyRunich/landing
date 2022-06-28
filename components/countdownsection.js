@@ -40,18 +40,18 @@ function CountDownSection() {
       className="relative bg-cover bg-center bg-no-repeat w-full min-h-[600px]"
       style={{ backgroundImage: "url(/imgs/banner_2.jpg)" }}
     >
-      <div className="w-full h-[10vh] absolute top-0 bg-[#FDFDFD]/90 flex items-center justify-around md:hidden">
+      <div className="w-full h-20 absolute top-0 bg-[#FDFDFD]/90 flex items-center justify-around md:hidden">
         <a
-          className="text-[#ffffff] box-border m-0 font-semibold flex justify-center items-center rounded-[40px] bg-[#3DC383] py-[14px] px-[30px] h-[45px] leading-[20px] w-[40vw]"
-          style={{ fontSize: "1.5rem" }}
+          className="text-[#ffffff] box-border m-0 font-semibold flex items-center justify-center rounded-[40px] bg-[#3DC383] py-3 px-5 h-[45px] leading-[20px] w-[40vw]"
+          style={{ fontSize: "1rem" }}
           href="#"
         >
           <Image src="/imgs/price.svg" alt="" width={30} height={40} />
           <span className="ml-[10px]">Spočítat cenu</span>
         </a>
         <a
-          className="text-[#ffffff] box-border m-0 font-semibold flex justify-center items-center rounded-[40px] bg-[#FF8F62] py-[14px] px-[30px] h-[45px] leading-[20px] w-[40vw]"
-          style={{ fontSize: "1.5rem" }}
+          className="text-[#ffffff] box-border m-0 font-semibold flex justify-center items-center rounded-[40px] bg-[#FF8F62] py-3 px-5 h-[45px] leading-[20px] w-[40vw]"
+          style={{ fontSize: "1rem" }}
           href="#"
         >
           <span className="">Objednat online</span>
@@ -71,9 +71,9 @@ function CountDownSection() {
             <br />
             <span
               style={{ border: "2.4px dashed #D5DBE1", fontSize: "4rem" }}
-              className="inline-block rounded-[50px] px-[25px] py-[12px] bg-[#ffffff] text-[#5FCE9B] mx-[24px]"
+              className="inline-flex items-baseline rounded-[50px] px-[25px] py-[12px] bg-[#ffffff] text-[#5FCE9B] mx-[24px]"
             >
-              30%
+              30<span style={{ fontSize: "3rem" }}>%</span>
             </span>
             <br />
             discount
@@ -90,9 +90,9 @@ function CountDownSection() {
             Make a pre-order with a
             <span
               style={{ border: "2.4px dashed #D5DBE1", fontSize: "4rem" }}
-              className="inline-block rounded-[50px] px-[25px] py-[12px] bg-[#ffffff] text-[#5FCE9B] mx-[24px]"
+              className="inline-flex items-baseline rounded-[50px] px-[25px] py-[12px] bg-[#ffffff] text-[#5FCE9B] mx-[24px]"
             >
-              30%
+              30<span style={{ fontSize: "3rem" }}>%</span>
             </span>
             discount
           </p>

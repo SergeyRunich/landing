@@ -38,19 +38,20 @@ function MainSection() {
         <div className="absolute w-[35vw] h-[35vw] text-[#ffffff] rounded-[300px] top-[60vh] left-[5vw] bg-[#3DC383] flex flex-col justify-center items-center">
           <span
             className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "2rem" }}
+            style={{ fontSize: "1.8rem" }}
           >
             ab
           </span>
           <span
-            className="font-bold flex leading-[1.2]"
+            className="font-bold flex items-baseline leading-[1.2]"
             style={{ fontSize: "4rem" }}
           >
-            5,4€
+            5,4
+            <span style={{ fontSize: "3rem" }}>€</span>
           </span>
           <span
             className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "2rem" }}
+            style={{ fontSize: "1.8rem" }}
           >
             je Portion
           </span>
@@ -98,19 +99,19 @@ function MainSection() {
         <div className="absolute w-[16vw] h-[16vw] text-[#ffffff] rounded-[300px] bottom-[8vh] right-[17vw] bg-[#3DC383] flex flex-col justify-center items-center">
           <span
             className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "2.3rem" }}
+            style={{ fontSize: "2.1rem" }}
           >
             ab
           </span>
           <span
-            className="font-bold flex leading-[1.2]"
+            className="font-bold flex items-baseline leading-[1.2]"
             style={{ fontSize: "4rem" }}
           >
-            5,4€
+            5,4<span style={{ fontSize: "3rem" }}>€</span>
           </span>
           <span
             className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "2.3rem" }}
+            style={{ fontSize: "2.1rem" }}
           >
             je Portion
           </span>
