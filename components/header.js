@@ -4,14 +4,11 @@ import Logo from "./logo";
 function Header() {
   return (
     <div className="w-full h-[5vh] absolute top-0 bg-[#FDFDFD]/80 flex items-center justify-between">
-      <a className="relative flex h-[30px] w-[92px] left-[4vw]" href="#">
+      <a className="relative flex h-7 w-24 left-[4vw]" href="#">
         <Logo />
       </a>
       <div className="relative flex right-[4vw]">
-        <a
-          className="relative flex h-[24px] w-[24px] cursor-pointer ml-[20px]"
-          href="#"
-        >
+        <a className="relative flex h-6 w-6 cursor-pointer ml-5]" href="#">
           <Image
             src="/imgs/instagram.svg"
             alt="Instagram"
@@ -19,10 +16,7 @@ function Header() {
             height={24}
           />
         </a>
-        <a
-          className="relative flex h-[24px] w-[24px] cursor-pointer ml-[20px]"
-          href="#"
-        >
+        <a className="relative flex h-6 w-6 cursor-pointer ml-5" href="#">
           <Image
             src="/imgs/facebook.svg"
             alt="Facebook"

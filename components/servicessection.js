@@ -41,7 +41,7 @@ function ServicesSection() {
           </p>
           <span
             style={{ fontSize: "1.1rem" }}
-            className="flex w-[31px] h-[31] my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
+            className="flex w-8 h-8 my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
           >
             2
           </span>
@@ -59,7 +59,7 @@ function ServicesSection() {
           </p>
           <span
             style={{ fontSize: "1.1rem" }}
-            className="flex w-[31px] h-[31] my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
+            className="flex w-8 h-8 my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
           >
             3
           </span>
@@ -77,7 +77,7 @@ function ServicesSection() {
           </p>
           <span
             style={{ fontSize: "1.1rem" }}
-            className="flex w-[31px] h-[31] my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
+            className="flex w-8 h-8 my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
           >
             4
           </span>
@@ -95,7 +95,7 @@ function ServicesSection() {
           </p>
           <span
             style={{ fontSize: "1.1rem" }}
-            className="flex w-[31px] h-[31] my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
+            className="flex w-8 h-8 my-4 rounded-[80px] bg-white justify-center text-[#3DC383] font-semibold"
           >
             5
           </span>

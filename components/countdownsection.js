@@ -40,15 +40,15 @@ function CountDownSection() {
     >
       <div className="w-full h-20 absolute top-0 bg-[#FDFDFD]/90 flex items-center justify-around md:hidden">
         <a
-          className="text-[#ffffff] box-border m-0 font-semibold flex items-center justify-center rounded-[40px] bg-[#3DC383] py-3 px-5 h-[45px] leading-[20px] w-[40vw]"
+          className="text-[#ffffff] box-border m-0 font-semibold flex items-center justify-center rounded-[40px] bg-[#3DC383] py-3 px-5 h-11 leading-[20px] w-[40vw]"
           style={{ fontSize: "1rem" }}
           href="#"
         >
           <Image src="/imgs/price.svg" alt="" width={30} height={40} />
-          <span className="ml-[10px]">Spočítat cenu</span>
+          <span className="ml-2">Spočítat cenu</span>
         </a>
         <a
-          className="text-[#ffffff] box-border m-0 font-semibold flex justify-center items-center rounded-[40px] bg-[#FF8F62] py-3 px-5 h-[45px] leading-[20px] w-[40vw]"
+          className="text-[#ffffff] box-border m-0 font-semibold flex justify-center items-center rounded-[40px] bg-[#FF8F62] py-3 px-5 h-11 leading-[20px] w-[40vw]"
           style={{ fontSize: "1rem" }}
           href="#"
         >
@@ -57,7 +57,7 @@ function CountDownSection() {
       </div>
 
       <div className="relative flex justify-center items-center flex-col w-full">
-        <div className="relative flex items-center justify-center mt-[180px] md:mt-[100px] md:hidden">
+        <div className="relative flex items-center justify-center mt-[180px] md:mt-24 md:hidden">
           <p
             className="font-bold text-center text-[#353643]"
             style={{
@@ -69,7 +69,7 @@ function CountDownSection() {
             <br />
             <span
               style={{ border: "2.4px dashed #D5DBE1", fontSize: "4rem" }}
-              className="inline-flex items-baseline rounded-[50px] px-[25px] py-[12px] bg-[#ffffff] text-[#5FCE9B] mx-[24px]"
+              className="inline-flex items-baseline rounded-[50px] px-6 py-3 bg-[#ffffff] text-[#5FCE9B] mx-6"
             >
               30<span style={{ fontSize: "3rem" }}>%</span>
             </span>
@@ -77,7 +77,7 @@ function CountDownSection() {
             discount
           </p>
         </div>
-        <div className="relative items-center justify-center mt-[180px] md:mt-[100px] hidden md:flex">
+        <div className="relative items-center justify-center mt-44 md:mt-24 hidden md:flex">
           <p
             className="font-bold text-center text-[#353643]"
             style={{
@@ -88,7 +88,7 @@ function CountDownSection() {
             Make a pre-order with a
             <span
               style={{ border: "2.4px dashed #D5DBE1", fontSize: "4rem" }}
-              className="inline-flex items-baseline rounded-[50px] px-[25px] py-[12px] bg-[#ffffff] text-[#5FCE9B] mx-[24px]"
+              className="inline-flex items-baseline rounded-[50px] px-6 py-3 bg-[#ffffff] text-[#5FCE9B] mx-6"
             >
               30<span style={{ fontSize: "3rem" }}>%</span>
             </span>
@@ -98,7 +98,7 @@ function CountDownSection() {
 
         <div className="container flex justify-center items-center w-full">
           <div
-            className="w-full flex justify-center items-center mt-10 pb-28"
+            className="w-full flex justify-center items-center mt-16 pb-28"
             id="countdown"
           ></div>
         </div>
