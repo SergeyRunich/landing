@@ -60,14 +60,14 @@ function MainSection() {
             gesunde Mahlzeiten
           </p>
           <span
-            className="font-bold text-[#7A889F] uppercase inline-flex items-center rounded-[80px] bg-[#F8F8F8]/70 py-1 pl-1 pr-6"
+            className="font-bold text-[#7A889F] uppercase inline-flex items-center rounded-[80px] bg-[#F8F8F8]/70 box-border h-[62px] py-1 pl-1 pr-6"
             style={{ fontSize: "1rem" }}
           >
-            <Image src="/imgs/fresh.svg" alt="" width={45} height={45} />
+            <Image src="/imgs/fresh.svg" alt="" width={56} height={56} />
             <span className="ml-3">Immer frisch, nicht gefroren</span>
           </span>
           <a
-            className="text-[#ffffff] font-semibold flex justify-center items-center rounded-[80px] bg-[#FF8F62] py-1 px-10 w-64 mt-10"
+            className="text-[#ffffff] font-semibold flex justify-center items-center rounded-[80px] bg-[#FF8F62] px-10 h-[54px] w-64 mt-10"
             style={{ fontSize: "0.8rem" }}
             href="#"
           >
