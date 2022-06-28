@@ -10,12 +10,20 @@ function MainSection() {
       >
         <Header />
         <div className="relative pt-[75px] top-[15vh] w-full px-[20px] text-center">
-          <h1 className="font-bold text-[#353643]" style={{ fontSize: "3rem" }}>
+          <h1
+            className="font-bold text-[#353643]"
+            style={{
+              fontSize: "3rem",
+              fontFamily: '"Source Serif Pro", serif',
+            }}
+          >
             NutritionPro-Box
           </h1>
           <p
             className="font-normal text-[#1A1E20] mt-[28px] mb-[50px]"
-            style={{ fontSize: "1.4rem" }}
+            style={{
+              fontSize: "1.4rem",
+            }}
           >
             Vom Küchenchef zubereitete und Ihnen gelieferte gesunde Mahlzeiten
           </p>
@@ -56,7 +64,10 @@ function MainSection() {
         <div className="absolute  top-[11vh] left-[5vw] text-left">
           <h1
             className="font-bold text-[#353643]"
-            style={{ fontSize: "3.5rem" }}
+            style={{
+              fontSize: "3.5rem",
+              fontFamily: '"Source Serif Pro", serif',
+            }}
           >
             NutritionPro-Box
           </h1>

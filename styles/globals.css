@@ -6,7 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Source Serif Pro", serif;
+  /* font-family: "Source Serif Pro", serif; */
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 

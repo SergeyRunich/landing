@@ -62,7 +62,10 @@ function CountDownSection() {
         <div className="relative flex items-center justify-center mt-[180px] md:mt-[100px] md:hidden">
           <p
             className="font-bold text-center text-[#353643]"
-            style={{ fontSize: "2.5rem" }}
+            style={{
+              fontSize: "2.5rem",
+              fontFamily: '"Source Serif Pro", serif',
+            }}
           >
             Make a pre-order with a
             <br />
@@ -79,7 +82,10 @@ function CountDownSection() {
         <div className="relative items-center justify-center mt-[180px] md:mt-[100px] hidden md:flex">
           <p
             className="font-bold text-center text-[#353643]"
-            style={{ fontSize: "2.5rem" }}
+            style={{
+              fontSize: "2.5rem",
+              fontFamily: '"Source Serif Pro", serif',
+            }}
           >
             Make a pre-order with a
             <span
