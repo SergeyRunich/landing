@@ -23,9 +23,9 @@ function showRemaining() {
 
   if (typeof document !== "undefined") {
     document.getElementById("countdown").innerHTML = `
-        <div><p class="value">${days}</p><p class="title">Days</p></div>
-        <div><p class="value">${hours}</p><p class="title">Hours</p></div>
-        <div><p class="value">${minutes}</p><p class="title">Minutes</p></div>
+        <div class="bg-[#f8f8f8] md:rounded-[40px] rounded-[30px] box-border w-[90px] h-[90px] md:w-[233px] md:h-[233px] flex flex-col justify-center items-center mx-[24px]"><p class="value text-[46px] md:text-[120px] font-bold leading-[10px] md:leading-[100px] my-[24px]">${days}</p><p class="title text-[12px] md:text-[24px] leading-[12px] md:leading-[24px] font-bold">Days</p></div>
+        <div class="bg-[#f8f8f8] md:rounded-[40px] rounded-[30px] box-border w-[90px] h-[90px] md:w-[233px] md:h-[233px] flex flex-col justify-center items-center mx-[24px]"><p class="value text-[46px] md:text-[120px] font-bold leading-[10px] md:leading-[100px] my-[24px]">${hours}</p><p class="title text-[12px] md:text-[24px] leading-[12px] md:leading-[24px] font-bold">Hours</p></div>
+        <div class="bg-[#f8f8f8] md:rounded-[40px] rounded-[30px] box-border w-[90px] h-[90px] md:w-[233px] md:h-[233px] flex flex-col justify-center items-center mx-[24px]"><p class="value text-[46px] md:text-[120px] font-bold leading-[10px] md:leading-[100px] my-[24px]">${minutes}</p><p class="title text-[12px] md:text-[24px] leading-[12px] md:leading-[24px] font-bold">Minutes</p></div>
     `;
   }
 }
@@ -40,16 +40,16 @@ function CountDownSection() {
     >
       <div className="w-full h-20 absolute top-0 bg-[#FDFDFD]/90 flex items-center justify-around md:hidden">
         <a
-          className="text-[#ffffff] box-border m-0 font-semibold flex items-center justify-center rounded-[40px] bg-[#3DC383] py-3 px-5 h-11 leading-[20px] w-[40vw]"
-          style={{ fontSize: "1rem" }}
+          className="text-[#ffffff] box-border m-0 font-semibold flex items-center justify-center rounded-[40px] bg-[#3DC383] py-3 px-5 leading-[20px] h-11 w-[40vw]"
+          style={{ fontSize: "16px" }}
           href="#"
         >
-          <Image src="/imgs/price.svg" alt="" width={30} height={40} />
+          <Image src="/imgs/price.svg" alt="" width={15} height={19} />
           <span className="ml-2">Spočítat cenu</span>
         </a>
         <a
           className="text-[#ffffff] box-border m-0 font-semibold flex justify-center items-center rounded-[40px] bg-[#FF8F62] py-3 px-5 h-11 leading-[20px] w-[40vw]"
-          style={{ fontSize: "1rem" }}
+          style={{ fontSize: "16px" }}
           href="#"
         >
           <span className="">Objednat online</span>
@@ -61,17 +61,17 @@ function CountDownSection() {
           <p
             className="font-bold text-center text-[#353643]"
             style={{
-              fontSize: "2.5rem",
+              fontSize: "30px",
               fontFamily: '"Source Serif Pro", serif',
             }}
           >
             Make a pre-order with a
             <br />
             <span
-              style={{ border: "2.4px dashed #D5DBE1", fontSize: "4rem" }}
+              style={{ border: "2.4px dashed #D5DBE1", fontSize: "50px" }}
               className="inline-flex items-baseline rounded-[50px] px-6 py-3 bg-[#ffffff] text-[#5FCE9B] mx-6"
             >
-              30<span style={{ fontSize: "3rem" }}>%</span>
+              30<span style={{ fontSize: "30px" }}>%</span>
             </span>
             <br />
             discount
@@ -81,16 +81,16 @@ function CountDownSection() {
           <p
             className="font-bold text-center text-[#353643]"
             style={{
-              fontSize: "2.5rem",
+              fontSize: "30px",
               fontFamily: '"Source Serif Pro", serif',
             }}
           >
             Make a pre-order with a
             <span
-              style={{ border: "2.4px dashed #D5DBE1", fontSize: "4rem" }}
-              className="inline-flex items-baseline rounded-[50px] px-6 py-3 bg-[#ffffff] text-[#5FCE9B] mx-6"
+              style={{ border: "2.4px dashed #D5DBE1", fontSize: "50px" }}
+              className="inline-flex items-baseline justify-center rounded-[50px] font-bold box-border h-[112px] w-[167px] pt-[14px] pb-3 bg-[#ffffff] text-[#5FCE9B] mx-6"
             >
-              30<span style={{ fontSize: "3rem" }}>%</span>
+              30<span style={{ fontSize: "30px" }}>%</span>
             </span>
             discount
           </p>

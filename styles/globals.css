@@ -20,32 +20,6 @@ a {
   box-sizing: border-box;
 }
 #countdown > div {
-  background: #f8f8f8;
-  border-radius: 40px;
   -webkit-box-shadow: -7px 0px 0px 3px #46b682;
   box-shadow: -7px 0px 0px 3px #46b682;
-  box-sizing: border-box;
-  width: 180px;
-  height: 180px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 24px;
-}
-
-#countdown > div > .value {
-  text-align: center;
-  margin: 0;
-  font-size: 4.5rem;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-#countdown > div > .title {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
 }

@@ -3,7 +3,7 @@ import Logo from "./logo";
 
 function Header() {
   return (
-    <div className="w-full h-[5vh] absolute top-0 bg-[#FDFDFD]/80 flex items-center justify-between">
+    <div className="w-full h-[70px] absolute top-0 bg-[#FDFDFD]/80 flex items-center justify-between">
       <a className="relative flex h-7 w-24 left-[4vw]" href="#">
         <Logo />
       </a>
