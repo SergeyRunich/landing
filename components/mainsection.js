@@ -35,27 +35,6 @@ function MainSection() {
             <span className="ml-[8px]">Immer frisch, nicht gefroren</span>
           </span>
         </div>
-        <div className="absolute w-[35vw] h-[35vw] text-[#ffffff] rounded-[300px] top-[60vh] left-[5vw] bg-[#3DC383] flex flex-col justify-center items-center">
-          <span
-            className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "1.8rem" }}
-          >
-            ab
-          </span>
-          <span
-            className="font-bold flex items-baseline leading-[1.2]"
-            style={{ fontSize: "4rem" }}
-          >
-            5,4
-            <span style={{ fontSize: "3rem" }}>€</span>
-          </span>
-          <span
-            className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "1.8rem" }}
-          >
-            je Portion
-          </span>
-        </div>
       </div>
       <div
         className="relative bg-cover bg-right bg-no-repeat w-full h-[500px] hidden md:block"
@@ -95,26 +74,6 @@ function MainSection() {
             <Image src="/imgs/price.svg" alt="" width={15} height={20} />
             <span className="ml-[10px]">Chci to zkusit první</span>
           </a>
-        </div>
-        <div className="absolute w-[16vw] h-[16vw] text-[#ffffff] rounded-[300px] bottom-[8vh] right-[17vw] bg-[#3DC383] flex flex-col justify-center items-center">
-          <span
-            className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "2.1rem" }}
-          >
-            ab
-          </span>
-          <span
-            className="font-bold flex items-baseline leading-[1.2]"
-            style={{ fontSize: "4rem" }}
-          >
-            5,4<span style={{ fontSize: "3rem" }}>€</span>
-          </span>
-          <span
-            className="font-normal flex leading-[1.2]"
-            style={{ fontSize: "2.1rem" }}
-          >
-            je Portion
-          </span>
         </div>
       </div>
     </>
