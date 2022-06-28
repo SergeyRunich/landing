@@ -23,11 +23,9 @@ function showRemaining() {
 
   if (typeof document !== "undefined") {
     document.getElementById("countdown").innerHTML = `
-      <div className="flex items-center flex-row w-full">
-        <div className="flex flex-row justify-center text-center items-center"><p>${days}</p><p>Days</p></div>
-        <div className="flex flex-row justify-center text-center items-center"><p>${hours}</p><p>Hours</p></div>
-        <div className="flex flex-row justify-center text-center items-center"><p>${minutes}</p><p>Minutes</p></div>
-      </div>
+        <div><p class="value">${days}</p><p class="title">Days</p></div>
+        <div><p class="value">${hours}</p><p class="title">Hours</p></div>
+        <div><p class="value">${minutes}</p><p class="title">Minutes</p></div>
     `;
   }
 }
@@ -99,7 +97,10 @@ function CountDownSection() {
         </div>
 
         <div className="container flex justify-center items-center w-full">
-          <div className="w-full flex justify-between" id="countdown"></div>
+          <div
+            className="w-full flex justify-center items-center mt-10 pb-28"
+            id="countdown"
+          ></div>
         </div>
       </div>
     </div>
