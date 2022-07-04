@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const end = new Date("07/01/2022 00:00 AM");
+const end = new Date("07/10/2022 00:00 AM");
 
 const _second = 1000;
 const _minute = _second * 60;
